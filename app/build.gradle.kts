@@ -67,4 +67,7 @@ dependencies {
 
     implementation(libs.androidx.camera.camera.view)
     implementation(libs.androidx.camera.camera.extensions)
+
+    implementation("androidx.camera:camera-mlkit-vision:1.3.2")
+    implementation("androidx.camera:camera-viewfinder:1.4.0-alpha04")
 }
