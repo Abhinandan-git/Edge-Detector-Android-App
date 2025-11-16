@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Edge-Detector-Android-App</string>
+    <string name="camera_permission_title">Camera Permission Required</string>
+    <string name="camera_permission_message">This app needs access to your camera to detect edges in images. Please grant camera permission to continue.</string>
+    <string name="grant_permission_button">Grant Camera Permission</string>
+    <string name="permission_denied_message">Camera permission is required for this app to function. Please grant permission in Settings if you denied it.</string>
 </resources>
