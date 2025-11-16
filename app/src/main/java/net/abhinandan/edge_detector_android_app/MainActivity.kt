@@ -12,6 +12,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat
 import net.abhinandan.edge_detector_android_app.ui.theme.EdgeDetectorAndroidAppTheme
 
@@ -49,7 +50,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Preview
 @Composable
 fun MainContent() {
-
+    CameraPreview()
 }
