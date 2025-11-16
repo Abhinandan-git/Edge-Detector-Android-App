@@ -48,9 +48,14 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    companion object {
+      init {
+         System.loadLibrary("native-lib")
+      }
+    }
 }
 
-@Preview
 @Composable
 fun MainContent() {
     CameraPreview()
